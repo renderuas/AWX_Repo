@@ -1,4 +1,4 @@
-- hosts: webservers
+- hosts: all
 tasks:
 
 - name: install remote rpm
