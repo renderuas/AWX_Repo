@@ -1,7 +1,6 @@
-- name: ensure wget is installed
-  host: all
-  yum:
-    name: wget
-    state: present
-    update_cache: true
-  become: true
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
