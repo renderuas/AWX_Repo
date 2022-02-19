@@ -1,4 +1,5 @@
 - name: ensure wget is installed
+  host: all
   yum:
     name: wget
     state: present
