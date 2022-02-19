@@ -1,5 +1,6 @@
 - name: Install Apache
   hosts: all
+  become: yes
   tasks:
     - name: Install the latest version of Apache
       yum:
