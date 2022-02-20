@@ -1,4 +1,4 @@
-- name: Hello World Sample
+- name: First Install
   hosts: all
   tasks:
     - name: Install the latest version of Apache
